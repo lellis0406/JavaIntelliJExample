@@ -1,0 +1,10 @@
+quick operator reference:
+== check if LHS is equal to RHS
+= assign RHS to LHS
+< check if LHS is less than RHS
+> check if LHS is more than RHS
++ add two numbers
+- subtract number 2 from number 1
+* multiply 2 numbers
+/ divide number 1 by number 2
+% take the remainder of num2/num1

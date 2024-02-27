@@ -1,0 +1,17 @@
+int: basic number type; NO decimal place, only whole numbers.
+
+float: supports decimal places. Requires that you format numbers as x.xf eg. 4.0f
+
+double: like float but a little slower with more accuracy.
+Does not require the unique formatting. Use float if possible.
+
+String: any combination of letters. Will mostly be used for printing to
+the console or driver hub telemetry.
+
+void: The absence of a type. Generally speaking, this means that the object
+that has a void type also has no value. Mostly used to show that a method
+will not return anything.
+
+boolean: has two values, true or false.
+Is most commonly outputted by logic operators/methods (== or .isEqual())
+Also used for logic switches.
