@@ -131,7 +131,7 @@ public class Main {
 
         //to call a method once it has been defined, use object.methodname(arguments)
         //you may call methods in your current object (in this case, main) without specifying the object
-        //for this function in this class, you may call it as "example(1, 1.5f);"
+        //for this function in this class, you may for example call it as "example(1, 1.5f);"
         //or if you had an integer named int1 and a float named float1,
         //"example(int1, float1);"
 
