@@ -1,4 +1,4 @@
-package main.lib;
+package main;
 
 import main.lib.people.types.Insomniac;
 import main.lib.people.Person;
