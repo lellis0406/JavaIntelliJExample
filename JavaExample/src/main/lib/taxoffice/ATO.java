@@ -9,4 +9,9 @@ public class ATO {
         total_tax += tax;
         return tax;
     }
+
+
+
+
+    //Now that you have finished static classes, go to src.main.lib.people.Person
 }

@@ -48,7 +48,7 @@ public class Main {
 
         //---------------------------------------------------------------------------
 
-        if(james.work() == 4.0f) { //spoiler: this is true
+        if (james.work() == 4.0f) { //spoiler: this is true
             System.out.println("A good day's work.");
         }
 
@@ -58,7 +58,7 @@ public class Main {
         }
         */
 
-        if(james.work() == 3.0f) {
+        if (james.work() == 3.0f) {
             //won't happen
         } else { //if the first statement isn't true
             System.out.println("normal day of work");
@@ -83,7 +83,7 @@ public class Main {
         //https://imgur.com/a/FIlpWC2
 
 
-        while(john.sleep() == 100.0f) { //this is false, so it will never start looping
+        while (john.sleep() == 100.0f) { //this is false, so it will never start looping
             System.out.println("Boom!!"); //(it won't happen)
         }
 
@@ -105,5 +105,38 @@ public class Main {
 
         //^ null pointer exception example, uncomment and compile/run to see
 
+        //THE COMPILER IS YOUR BEST FRIEND! Do not forget this. The compiler is very descriptive with errors
+        //IF you know how to properly read it. Always read the compiler output when it fails.
+        //If you don't understand, throw the key phrases from the output into google and StackOverflow will
+        //nearly always give a concise answer.
+
+
     }
+
+    public int example(int example_input_1, float example_input_2) {
+        //this is a METHOD.
+        //methods are members of classes (main is a method too) that are basically
+        //blocks of code that you can call by an alias, which is the word before the brackets
+        //in this case, example
+
+        //methods have inputs (referred to as arguments)
+        //these are set between the brackets in its definition (see above with int example_input 1 and 2)
+
+        //if you give a method a type (see above how I said this method was an int?)
+        //you must return (using the return keyword) an output of the specified type
+        return 3;
+        //the only exception to this is the void type, then you do NOT need to return anything.
+        //however, "return;" can still be used to break out of the function early if necessary
+
+
+        //to call a method once it has been defined, use object.methodname(arguments)
+        //you may call methods in your current object (in this case, main) without specifying the object
+        //for this function in this class, you may call it as "example(1, 1.5f);"
+        //or if you had an integer named int1 and a float named float1,
+        //"example(int1, float1);"
+
+    }
+
+        //Now that you have finished basic logic and structure, go to src.main.lib.houses.House
+
 }
