@@ -24,6 +24,5 @@ public class ATO {
     //when you use a static method, it can ONLY access static variables or methods.
     //this is useful for shared information or behaviour between instances of a class
 
-
     //Now that you have finished static classes, go to src.main.lib.people.Person
 }

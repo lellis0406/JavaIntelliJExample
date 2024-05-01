@@ -17,6 +17,8 @@ public class House {
     private float size;
     private Person[] occupants;
 
+    public static int bleh  = 3;
+
     //when you put a [] at the end of a type (in this case, Person becomes Person[])
     //it is considered an "array"
     //arrays are effectively a list of objects
@@ -27,6 +29,7 @@ public class House {
         size = size_in;
         occupants = people;
     };
+
     //this is a unique kind of method called a constructor
     //it does not require a type, and MUST have the same name as the class it is in
     //When you use the new keyword, and then call this function

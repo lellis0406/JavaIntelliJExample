@@ -2,6 +2,7 @@ package main;
 
 import main.lib.people.types.Insomniac;
 import main.lib.people.Person;
+import main.lib.houses.House;
 import main.lib.people.types.Surgeon;
 
 // keep an eye out for "//<content>" or:
@@ -43,9 +44,17 @@ public class Main {
         //you went back and instantiated
         //john as an Insomniac
 
+
+
+        my_house.getsize();
+        my_house.bleh;
+        House.bleh;
+
         //it's important to note that ALL non primitive or derived types (google these)
         //require that you use the new keyword as above when instantiating.
 
+        String x  = "string";
+        int number = 2;
         //---------------------------------------------------------------------------
 
         if (james.work() == 4.0f) { //spoiler: this is true
@@ -93,15 +102,18 @@ public class Main {
         }
         */
 
+        for(int i = 0; i < 5; i++) {
+            //do thing
+        }
+
+//        for(condition 1; condition 2; condition 3;)
         //for loops are a little harder to explain, so see this link:
         //https://www.w3schools.com/java/java_for_loop.asp
 
         //----------------------------------------------------------------------------
 
-        /*
-        Insomniac jane = null;
-        jane.work();
-        */
+//        Insomniac jane = null;
+//        jane.work();
 
         //^ null pointer exception example, uncomment and compile/run to see
 
